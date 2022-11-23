@@ -1,0 +1,104 @@
+
+// Responsive CSS
+@media only screen and (max-width: 767px) {
+    .sidemenu-area {
+        right: -100%;
+        left: auto;
+        &.active-sidemenu-area {
+            right: 0;
+            left: auto;
+        }
+    }
+    .main-dashboard-content {
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .navbar-area {
+            right: 0;
+            left: auto;
+            width: calc(100% - 0px);
+        }
+        .others-option-for-responsive {
+            .dot-menu {
+                left: 40px;
+                right: auto;
+            }
+            .others-options {
+                .profile-nav-item {
+                    .menu-profile {
+                        img {
+                            margin-left: 8px;
+                            margin-right: 0;
+                        }
+                    }
+                    .dropdown-bs-toggle {
+                        padding-left: 25px;
+                        padding-right: 0;
+
+                        &::before {
+                            left: 0;
+                            right: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .stats-fun-fact-box {
+        padding: 35px 95px 34px 25px;
+    }
+    .invoices-box {
+        ul {
+            li {
+                padding-left: 25px;
+
+                .default-btn {
+                    left: 0;
+                }
+            }
+        }
+    }
+    .single-applicants-card {
+        .image {
+            right: 0;
+        }
+        .content {
+            padding: 0;
+        }
+    }
+    .text-end {
+        text-align: center !important;
+    }
+    .breadcrumb-area {
+        .breadcrumb {
+            padding-right: 0;
+        }
+    }
+
+    .my-profile-box {
+        .profile-box {
+            .text {
+                margin-right: 0;
+            }
+        }
+    }
+    .dashboard-jobs-box {
+        .dashboard-job-card {
+            .job-content {
+                padding-right: 0;
+                padding-left: 0;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+   
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+   
+}
